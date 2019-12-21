@@ -3,10 +3,9 @@ trigger:
   
   pool:
     vmImage: 'ubuntu-16.04'
-    demands:
-    - npm
-  
-  variables:
+    demands: npm
+##comentario
+  - variables:
     buildConfiguration: 'Release'
   
   steps:
