@@ -14,8 +14,8 @@ variables:
 
 steps:
     - task: DotNetCoreInstaller@0
-        - displayName: 'Use .NET Core SDK $(dotnetSdkVersion)'
-        - inputs:
+        displayName: 'Use NET Core SDK $(dotnetSdkVersion)'
+        inputs:
             version: '$(dotnetSdkVersion)'
             
     - task: Npm@1
